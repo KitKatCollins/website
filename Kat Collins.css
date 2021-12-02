@@ -1,0 +1,212 @@
+/* Kat Collins CSS*/
+/*background*/
+body{
+background-image: linear-gradient(315deg, #5b6467 0%, #8b939a 74%);
+width: auto;
+height: auto;
+overflow-y: scroll;
+}
+
+/*middle box*/
+.header_box {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: auto;
+  background-image: linear-gradient(147deg, #000000 2%, #04619f 65%);
+  transform: skewY(-5.5deg);
+  transform-origin: top left;
+  min-height: 60vh;
+}
+
+/*head text*/
+h1 a{
+display: inline;
+color: black;
+font-family: 'Courier New', Courier, monospace;
+padding: 12px 16px 8px;
+text-decoration: none;
+background-color: #f1f1f1;
+font-weight:800;
+width: auto;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+top:0;
+margin:20px auto;
+}
+/* top links*/
+.menu a {
+display: inline;
+color: black;
+font-family: 'Courier New', Courier, monospace;
+padding: 12px 16px;
+text-decoration: none;
+background-color: #f1f1f1;
+min-width: 160px;
+margin-top:20px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+.menu a:hover {
+  background-color: #6b6b6b;
+}
+.image3{
+margin: 10px 250px;
+position: absolute;
+top:0;
+right:0;
+}
+.image2{
+margin: 10px 50px;
+position: absolute;
+top:0;
+right:0;
+}
+.image1{
+margin: 10px 150px;
+position: absolute;
+top:0;
+right:0;
+}
+/*Intro paragraph on main*/
+.Intro{
+ color: white;
+ font-family: 'Courier New', Courier, monospace;
+ font-weight: bold;
+ font-size: 24px;
+ z-index: 1;
+ padding: 12px 16px;
+ transform: skewY(5deg);
+ transform-origin: top left;
+ white-space: nowrap;
+ overflow: hidden;
+}
+/*About section*/
+.About{
+ color: white;
+ font-family: 'Courier New', Courier, monospace;
+ font-weight: bold;
+ font-size: 20px;
+ z-index: 1;
+ padding: 12px 16px;
+ transform: skewY(5deg);
+ transform-origin: top left;
+ }
+/*Projects section*/
+ .Projects{
+ color: white;
+ font-family: 'Courier New', Courier, monospace;
+ font-weight: bold;
+ font-size: 20px;
+ z-index: 1;
+ padding: 12px 16px;
+ transform: skewY(5deg);
+ transform-origin: top left;
+ }
+
+/* Contact Me Box*/
+form {
+max-width:400px;
+margin:20px auto;
+transform: skewY(5deg);
+transform-origin: top left;
+}
+h2{
+  color:white;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 22px;
+}
+.feedback-input {
+  color:black;
+  font-family:'Courier New', Courier, monospace;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 8px;
+  line-height: 20px;
+  background-color: white;
+  border:6px solid #6b6b6b;
+  transition: all 0.3s;
+  padding: 12px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+.feedback-input:focus {
+border:2px solid #f1f1f1;
+}
+
+text area {
+  height: 100px;
+  line-height: 150%;
+  resize:vertical;
+}
+.feedback-input:invalid {
+  box-shadow: 0 0 3px 1px red;
+}
+[type="submit"] {
+  font-family: 'Courier New', Courier, monospace;
+  width: 100%;
+  background:#f1f1f1;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  border-radius:8px;
+  border:0;
+  cursor:pointer;
+  color:black;
+  font-size:20px;
+  padding: 10px 10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:450;
+  text-decoration: none;
+  z-index: 1;
+}
+[type="submit"]:hover {
+background:#6b6b6b;
+}
+
+/*footer*/
+.kat-footer {
+  font-size:16px;
+  font-family:'Courier New', Courier, monospace;
+  text-transform:uppercase;
+  list-style:none;
+  text-decoration:none;
+  margin-top:2px;
+  position:fixed;
+  bottom:0;
+  width:105%;
+  height:80px;
+  margin-top: auto;
+  background-image: linear-gradient(100deg, #5b6467 10%, #8b939a 80%);
+  margin-left:-1%;
+}
+.kat-footer hr {
+  border-top-color:#bbb;
+  opacity:0.5;
+}
+.column {
+padding:10;
+float: left;
+width: 33.33%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.footer-links a{
+font-size: 14px;
+color: black;
+font-family: 'Courier New', Courier, monospace;
+text-decoration: none;
+list-style: none;
+}
+ .footer-links li{
+font-size: 15px;
+color: black;
+font-family: 'Courier New', Courier, monospace;
+text-decoration: none;
+list-style: none;
+}
